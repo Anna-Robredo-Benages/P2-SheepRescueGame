@@ -1,0 +1,27 @@
+PRACTICE 2 - EXERCISE IN UNITY SCRIPTING 
+
+To do the Sheep Rescue Game, first of all I did part 1 of the exercise until I had generated multiple sheep’s, that is, I completed all the steps 
+explained in the slides of the practice that can be found in Aula Global. Once this was done, I took a look at part 2 in order to add some modifications 
+and new functionalities to the game. So, the modifications and new functionalities of the game that I have added are:
+
+	- A small heart model that flies up from any saved sheep to show their appreciation. Thus, there is a Prefab called Heart in my project.
+
+	- Sound effects for three different situations:
+		1.	When a sheep drops
+		2.	When a sheep is hit
+		3.	When a projectile is shot
+
+	- Background music for the game 
+
+	- Because the game had no failure state, no matter how many sheep drop to their demise, the player could keep going, I have introduced a way to 
+	  keep the score of the game so that the game ends at some point. So, it works as follows: After three sheep have hit the invisible trigger behind 
+	  the hay machine, the game will end.
+
+	- A Title Scene with two different buttons, start and quit, and with the option of change the color of the hay machine by just clicking on it. 
+	  There are three different colors, blue, red and yellow.
+
+	- In order to view the track of the score and the mistakes done, I have manipulated the User Interface. So, the UI updates as sheep get saved and 
+	  fall down. If you let three sheep drop down, a simple game over window pops up. If you press the Escape key, the Title scene loads.
+
+	- Make the sheep’s spawn faster over time to increase the pressure, by making some modifications to SheepSpawner script. In the script, I have 
+	  commented the lines of code that were written before I applied this new functionality. 
